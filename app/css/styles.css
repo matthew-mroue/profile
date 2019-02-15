@@ -56,3 +56,10 @@ h3 {
   font-weight: 600px;
   color: #1ECEFD;
 }
+img {
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  margin-left: 10%;
+  
+}
