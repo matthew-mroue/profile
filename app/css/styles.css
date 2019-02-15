@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.formWrapper, .profileWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#eee;
+}
+
+form, .profileContents {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+}
+
+input, button, textarea {
+  font-size: 16px;
+  padding: 14px;
+  margin: 5px;
+  outline: none;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  resize: vertical;
+}
+
+button {
+  background-color: #505355;
+  color: white;
+}
+
+button:hover {
+  background-color: #5BECD8;
+  color: black;
+}
+
+h2, h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: 400;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-weight: 600px;
+  color: #1ECEFD;
+}
